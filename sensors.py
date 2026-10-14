@@ -14,6 +14,6 @@ class Sensors:
         except Exception as exc:
             print('[HC-SR04] Read failed:', exc)
         return result
-    def close(self):
+
     def close(self):
         self.ultrasonic.close()
